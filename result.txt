@@ -1,0 +1,19 @@
+
+ [block:11273627 txIndex:31] from: 0x2D7...46DB1to: OurSocialMedia.(constructor)value: 0 weidata: 0x608...000dclogs: 0hash: 0xc1c...57bed
+ status	true Transaction mined and execution succeed
+ transaction hash	0xc1cdba6fc362a7d15060d6a495f41f9dbae2a702e33b9c4565e55d96d1857bed Copy value to clipboard
+ from	0x2D7510f8047Fa640dC7f7c829d629e4021846DB1 Copy value to clipboard
+ to	OurSocialMedia.(constructor) Copy value to clipboard
+ gas	2172044 gas Copy value to clipboard
+ transaction cost	2172044 gas Copy value to clipboard
+ hash	0xc1cdba6fc362a7d15060d6a495f41f9dbae2a702e33b9c4565e55d96d1857bed Copy value to clipboard
+ input	0x608...000dc Copy value to clipboard
+ decoded input	{ "uint256 _maxCharInPost": { "_hex": "0x01a4", "_isBigNumber": true }, "uint256 _maxCharInComment": { "_hex": "0xdc", "_isBigNumber": true } } Copy value to clipboard
+ decoded output	 - Copy value to clipboard
+ logs	[] Copy value to clipboard Copy value to clipboard
+ value	0 wei 
+
+
+ address 0xF1e151Eb98e1864E3ff0cF59FB92CE47b9c33ED7
+
+ 

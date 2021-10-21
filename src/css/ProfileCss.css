@@ -1,0 +1,10 @@
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-image: url('../imgs/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat
+}
+

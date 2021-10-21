@@ -1,0 +1,33 @@
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.87);
+    margin:5% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    animation-name: animatetop;
+   animation-duration: 0.2s;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  
+  /* Add Animation */
+  @keyframes animatetop {
+    from {transform: scale(.8,.6); opacity: .2}
+    to {transform: scale(1,1); opacity: 1}
+  }
+

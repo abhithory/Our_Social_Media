@@ -1,0 +1,72 @@
+
+
+/* .fullBodyBG {
+  height: 100vh;
+
+  background: -webkit-linear-gradient(to right, #000428 , #002d55); 
+
+ background: linear-gradient(to right,  #000428 , #002d55);
+
+} */
+
+.fullBodyBG {
+
+  display: grid;
+  background-color: #002d55;
+  background: linear-gradient(#000428 , #002d552f), url('../imgs/bg2.png') no-repeat center center fixed ;
+
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+
+
+.circle-in-text {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 40%;
+    text-align: center;
+    border: 1px solid rgb(26, 1, 255);
+
+  }
+
+  .scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  .scrollmenu-item{
+    display: inline-block;
+  }
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #c5c5c5;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7c7c7c;
+}
