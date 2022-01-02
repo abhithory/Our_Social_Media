@@ -19,6 +19,7 @@ export default function TopFollowTo(props) {
                         <div className="ml-1 scrollmenu-item"><img
                             className='ml-2'
                             alt="logo"
+                            // eslint-disable-next-line
                             className="ml-1 circle-in-text bg-primary scrollmenu-item"
                             src={`data:image/png;base64,${new Identicon(fo, 50).toString()}`}
                         /></div>
